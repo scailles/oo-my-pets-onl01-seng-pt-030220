@@ -30,9 +30,7 @@ def self.reset_all
 end
 
 def self.cats
-  @pets[:cats].each do |name|
-    return name
-  end
+  Cat.all.select{|cat| cat.owner == self}
 end
 
 def self.dogs
