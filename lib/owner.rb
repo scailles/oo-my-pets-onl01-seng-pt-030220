@@ -30,7 +30,7 @@ def self.reset_all
   @@count = 0
 end
 
-def self.cats
+def cats
   @pets[:cats].each do |name|
     return name
   end
