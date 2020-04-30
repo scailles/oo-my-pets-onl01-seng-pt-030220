@@ -54,7 +54,9 @@ def buy_cat(name, owner = self)
   end
   
   def sell_pets
-    self.
+    pets = self.cats || self.dogs
+    pets 
+    
 
 
 end
