@@ -46,7 +46,8 @@ def buy_cat(name, owner = self)
   end
   
   def walk_dogs
-    self.dogs.each {
+    self.dogs.each {|dog| dog.mood = "happy"}
+  end
 
 
 end
