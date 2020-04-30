@@ -31,7 +31,8 @@ def self.reset_all
 end
 
 def self.cats
-  return @pets[:cats]
+  @pets[:cats].each do |name|
+    return name
 end
 
 def self.dogs
