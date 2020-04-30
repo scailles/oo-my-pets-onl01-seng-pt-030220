@@ -10,7 +10,7 @@ def initialize(name, species = "human")
   @species = species
   @@all << self
   @@count += 1
-  @pets= {:dogs => {:name, :owner, , :cats => []}
+  @pets= {:dogs => {:name, :owner}, :cats => {:name, :owner}}
 end
 
 def say_species
