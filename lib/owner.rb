@@ -46,7 +46,7 @@ def buy_cat(name, owner = self)
   end
   
   def walk_dogs
-    self.each.
+    self.dogs.each {
 
 
 end
