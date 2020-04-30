@@ -60,6 +60,11 @@ def buy_cat(name, owner = self)
       pet.owner = nil
     end
   end
+  
+  def sell_pets
+    pets = self.cats + self.dogs
+    return pets
+  end
     
 
 
