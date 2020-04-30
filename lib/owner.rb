@@ -39,7 +39,9 @@ def self.dogs
 end
 
 def buy_cat
-  
+  @pets[:cats]= Cat.new
+  @cats << self
+end
 
 
 end
