@@ -31,11 +31,11 @@ def self.reset_all
 end
 
 def self.cats
-  @pets[:cats]= 
+  @pets[:cats]= Cat.new
 end
 
 def self.dogs
-  @dogs
+  @dogs[:dogs]= Dog.new
 end
 
 def buy_cat
