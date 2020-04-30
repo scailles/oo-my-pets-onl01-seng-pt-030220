@@ -38,7 +38,7 @@ def dogs
 end
 
 def buy_cat(cat_name)
-    @pets[:cats] << Cat.new(cat_name)
+    Cat.new
   end
   
   def buy_dog(dog_name)
