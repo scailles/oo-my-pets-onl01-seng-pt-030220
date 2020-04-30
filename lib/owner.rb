@@ -29,7 +29,7 @@ def self.reset_all
   @@count = 0
 end
 
-def self.cats
+def cats
   Cat.all.select{|cat| cat.owner == self}
 end
 
