@@ -64,6 +64,7 @@ def buy_cat(name, owner = self)
   def list_pets
     all_pets = self.cats + self.dogs
     return all_pets
+    
   end
     
 
