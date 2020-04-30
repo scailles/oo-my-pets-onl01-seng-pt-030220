@@ -10,8 +10,7 @@ def initialize(name, species = "human")
   @species = species
   @@all << self
   @@count += 1
-  @cats=[]
-  @dogs=[]
+  @pets= {dogs 
 end
 
 def say_species
