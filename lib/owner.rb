@@ -33,6 +33,7 @@ end
 def self.cats
   @pets[:cats].each do |name|
     return name
+  end
 end
 
 def self.dogs
