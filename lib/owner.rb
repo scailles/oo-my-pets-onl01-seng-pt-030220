@@ -62,9 +62,7 @@ def buy_cat(name, owner = self)
   end
   
   def list_pets
-    all_pets = self.cats + self.dogs
-    return all_pets
-    
+    return "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."s
   end
     
 
