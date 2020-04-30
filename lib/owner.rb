@@ -34,7 +34,7 @@ def self.cats
 end
 
 def self.dogs
-  return @pets[:dogs]
+  
 end
 
 def buy_cat(cat_name)
