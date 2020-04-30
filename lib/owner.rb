@@ -38,4 +38,9 @@ end
 def self.dogs
   @dogs
 end
+
+def buy_cat
+  
+
+
 end
