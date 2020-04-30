@@ -31,7 +31,7 @@ def self.reset_all
 end
 
 def self.cats
-  @pets[:cats]= Cat.new
+  
 end
 
 def self.dogs
