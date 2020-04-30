@@ -44,6 +44,9 @@ def buy_cat(name, owner = self)
   def buy_dog(name, owner = self)
     Dog.new(name, owner)
   end
+  
+  def walk_dogs
+    Dog.
 
 
 end
